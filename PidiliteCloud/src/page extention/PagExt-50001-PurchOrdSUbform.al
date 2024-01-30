@@ -4,11 +4,11 @@ pageextension 50001 PurchOrderSubform extends "Purchase Order Subform"
     {
         addafter("Location Code")
         {
-            field("Gen. Prod. Posting Group"; Rec."Gen. Prod. Posting Group")
-            {
-                Visible = true;
-                ApplicationArea = All;
-            }
+            /*  field("Gen. Prod. Posting Group"; Rec."Gen. Prod. Posting Group")
+             {
+                 Visible = true;
+                 // ApplicationArea = All;
+             } */
         }
     }
 
